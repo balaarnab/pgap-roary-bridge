@@ -26,14 +26,14 @@ Test files comprise,
 ## Procedure Steps:
 1.	GFF3 file edit
 	a. Run the `gffV3_edit.py` script. The input file is named as `input.gff` but it may be required to be renamed according to the PGAP output (usually `annot.gff`).\
-    b. Edit the `genome_name` according to requirement..
-	c. After a successful run, it will create a separate GFF file named the given `genome_name`. This file doesn’t contain the sequence..
+    b. Edit the `genome_name` according to requirement.\
+	c. After a successful run, it will create a separate GFF file named the given `genome_name`. This file doesn’t contain the sequence.
 3.	FASTA file edit
-	a. Run the `fasta_edit.py` script. Make sure the `genome_name` here is a copy of the one used in previous script..
-	b. The input file is named here as `input.fasta`, rename it according to the FASTA sequence file..
-	c. After a successful run it will create a new FASTA file of similar given `genome_name`..
+	a. Run the `fasta_edit.py` script. Make sure the `genome_name` here is a copy of the one used in previous script.\
+	b. The input file is named here as `input.fasta`, rename it according to the FASTA sequence file.\
+	c. After a successful run it will create a new FASTA file of similar given `genome_name`.
 4.	Compilation
-	a. Run the `compiling_files.py` script. Here three input files are required, `gff_file` = the edited GFF file in 1st step; `fasta_file` = the edited FASTA file in 2nd step; `header_source` = the main GFF3 file from PGAP annotation (Here, it’s `input.gff`). Rename the input on the script accordingly..
+	a. Run the `compiling_files.py` script. Here three input files are required, `gff_file` = the edited GFF file in 1st step; `fasta_file` = the edited FASTA file in 2nd step; `header_source` = the main GFF3 file from PGAP annotation (Here, it’s `input.gff`). Rename the input on the script accordingly.\
 	b. After a successful run a final GFF file will be created that can be used directly on Roary..
 ## Schematic diagram:
            Input.gff    ►    Script 1    ►    Ag1S.gff
