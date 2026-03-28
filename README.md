@@ -25,7 +25,8 @@ Test files comprise,
             `Ag1S_Roary.gff`
 ## Procedure Steps:
 1.	GFF3 file edit
-	a. Run the `gffV3_edit.py` script. The input file is named as `input.gff` but it may be required to be renamed according to the PGAP output (usually `annot.gff`)..
+	a. Run the `gffV3_edit.py` script. The input file is named as `input.gff` but it may be required to be renamed according to the PGAP output (usually `annot.gff`).
+<br>
     b. Edit the `genome_name` according to requirement..
 	c. After a successful run, it will create a separate GFF file named the given `genome_name`. This file doesn’t contain the sequence..
 3.	FASTA file edit
