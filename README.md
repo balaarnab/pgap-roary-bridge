@@ -17,7 +17,7 @@ a.	`pandas`
 b.	`biopython`
 ## Test files:
 For example, a PGAP annotated GFF3 file along with sequence FASTA file of the NCBI BioSample: SAMN44958832 (Only the 1st contig is used to reduce size) is included as test files.
-Test files comprise,
+Test files comprises,
             `Input.gff`
             `Input.fasta`
             `Ag1S.gff`
